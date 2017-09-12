@@ -2,6 +2,11 @@
 
 //点到直线上的投影
 
+/*
+判断点是否在三角形内：类似于分离轴定理，将点分别投影到三角形的三条边上，
+只要有一边的投影点不在三角形当前的边上，就说明点不在三角形内部。
+求点到直线上的投影：http ://blog.csdn.net/gf771115/article/details/26721055
+*/
 class vec2
 {
 	friend float distance(const vec2& A, const vec2& B);
