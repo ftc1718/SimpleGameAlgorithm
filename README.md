@@ -1,5 +1,5 @@
 # SimpleGameAlgorithm
 some simple algorithm in games
 include：
-# Determine whether the point is within the triangle
-//# A start algorithm
+1. Determine whether the point is within the triangle
+2. A start algorithm
